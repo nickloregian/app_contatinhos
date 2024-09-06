@@ -7,6 +7,7 @@ import {
 
 import { Home } from '@/app/home';
 import { Loading } from '@/app/components/loading';
+import { StatusBar } from 'expo-status-bar';
 
 export default function App() {
   const[fontsLoaded] = useFonts({
@@ -19,4 +20,13 @@ export default function App() {
     return <Loading />
   }
   return <Home />
+
+  return(
+    <>
+      <StatusBar barStyle={'light-content'}
+      backgroundColor={"transparent"}
+      translucent/>
+      <Home />
+    </>
+  )
 }
