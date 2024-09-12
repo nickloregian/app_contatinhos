@@ -5,6 +5,7 @@ import { styles } from "./styles";
 import { Input } from "@/app/components/input";
 import { theme } from "@/theme";
 import { useState } from "react";
+import { Contact } from "@/app/components/contact";
 
 export function Home() {
     const [name, setName ] = useState("")
