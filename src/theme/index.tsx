@@ -1,5 +1,6 @@
-import { colors } from './colors'
+import { colors, fontFamily } from './colors'
 
 export const theme = {
     colors,
+    fontFamily,
 }

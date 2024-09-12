@@ -1,3 +1,5 @@
+import { StatusBar } from 'react-native';
+
 import {
   useFonts,
   Ubuntu_700Bold,
@@ -7,7 +9,6 @@ import {
 
 import { Home } from '@/app/home';
 import { Loading } from '@/app/components/loading';
-import { StatusBar } from 'expo-status-bar';
 
 export default function App() {
   const[fontsLoaded] = useFonts({
